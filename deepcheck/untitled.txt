@@ -1,0 +1,12 @@
+conda install -c conda-forge ipympl
+conda install nodejs
+jupyter labextension install @jupyter-widgets/jupyterlab-manager
+jupyter labextension install jupyter-matplotlib
+jupyter labextension install ipyvolume
+And got issues, so I ran: conda update jupyterlab && jupyter labextension update --all and it fixed.
+
+conda install -c conda-forge ipympl
+conda install nodejs
+jupyter labextension install @jupyter-widgets/jupyterlab-manager
+jupyter labextension install jupyter-matplotlib
+jupyter labextension install ipyvolume
